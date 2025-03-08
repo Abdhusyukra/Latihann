@@ -21,4 +21,4 @@ jobs:
         run: htmlhint "**/*.html"
 
       - name: Periksa CSS
-        run: stylelint "**/*.css" --allow-empty-input
+        run: stylelint "**/*.css"  --allow-empty-input
